@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: spring-demo-config
+  namespace: spring-demo
+data:
+  APPLICATION_MODE: "production"
+  WELCOME_MESSAGE: "Hello from ConfigMap!"
+
